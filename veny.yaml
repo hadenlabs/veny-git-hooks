@@ -1,0 +1,4 @@
+-   name: git-hooks
+    type: hooks
+    dest: '.git/hooks'
+    description: "Hooks Git"
