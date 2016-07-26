@@ -48,3 +48,9 @@
     -   id: python-import-sorter
         args:
         - --silent-overwrite
+-   repo: git://github.com/detailyang/pre-commit-shell
+    sha: 28f9ecf7857d17ebd9d1715cb5bf208c9e8e2bdd
+    hooks:
+    -   id: shell-lint
+        args:
+        - --external-sources
